@@ -55,11 +55,37 @@ Cloud Watch-> Billing
 ### ECB
 * Virtual hard drive
 * You can change the size(only increase) But you need to modify OS to recoganize this new one.
+* How to encrypt a unencrypted root volume?
+    * take snap shot
+    * copy snap shot and check encryption.
+    * create image from this snapshot
+    * launch instance from this image.
+
+CloudWatch is performance(GYM)/logs and ClouldTail is monitors API calls to platform(CCTV)(audit)
+* CloudWatch
+ * standard 5 mins
+ * details 1 min
+
+* EFS (Elastic File System for EC2)
+  * Like EBS where you can attach
+  * But EBS cannot be attached to 2 EC2  (check thisout as it looks like it can).where as EFS can be(shared across multiple ec2)
+  * Need to open NFS(2049) in Security Group.
+
 ## Todos
 * google authenticator
+* read about SMS and NFS differences for file
+
+## Labs to try in AWS
+* cloud-watch and alarms
+* ec2 -> role -> aws commands
+* ec2 -> boot straps.
+
+
+
 
 **S3 Styles**
 Virtual style puts your bucket name 1st, s3 2nd, and the region 3rd. Path style puts s3 1st and your bucket as a sub domain. Legacy Global endpoint has no region. S3 static hosting can be your own domain or your bucket name 1st, s3-website 2nd, followed by the region. AWS are in the process of phasing out Path style, and support for Legacy Global Endpoint format is limited and discouraged. However it is still useful to be able to recognize them should they show up in logs. [more](https://docs.aws.amazon.com/AmazonS3/latest/dev/VirtualHosting.html)
 
 Questions:
  Power user???
+
