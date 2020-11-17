@@ -80,7 +80,8 @@ CloudWatch is performance(GYM)/logs and ClouldTail is monitors API calls to plat
 * ec2 -> role -> aws commands
 * ec2 -> boot straps.
 
-
+## Elastic Load Balancer(EBS)
+Amazon Elastic Load Balancers situated at different application tiers ensure that even if an entire zone goes offline, traffic will be directed to the appropriate one. It's worth pointing out that **the ELBs "live" outside the zones** and are therefore not impacted by the failure of any particular one. ELB is one of many AWS services that have a regional scope and can span across zones in a given region. Other services like Route 53 is global in scope, as shown below, and provides services to multiple Regions.
 
 
 **S3 Styles**
