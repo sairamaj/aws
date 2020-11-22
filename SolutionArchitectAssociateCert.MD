@@ -87,6 +87,14 @@ Amazon Elastic Load Balancers situated at different application tiers ensure tha
 **S3 Styles**
 Virtual style puts your bucket name 1st, s3 2nd, and the region 3rd. Path style puts s3 1st and your bucket as a sub domain. Legacy Global endpoint has no region. S3 static hosting can be your own domain or your bucket name 1st, s3-website 2nd, followed by the region. AWS are in the process of phasing out Path style, and support for Legacy Global Endpoint format is limited and discouraged. However it is still useful to be able to recognize them should they show up in logs. [more](https://docs.aws.amazon.com/AmazonS3/latest/dev/VirtualHosting.html)
 
+
+## DNS
+**Naked zone** An Internet domain name without the "www" or any other subdomains. For example, computerlanguage.com is a naked domain but www.computerlanguage.com is not, because it contains the www subdomain ( also called zone apex)
+
+**Note** CNAME cannot be used with naked domains (Alias has to be used.) 
+  Investigate: for ELB (is CNAME or ALIAS)
+
+**PTR** is reverse of A
 Questions:
  Power user???
 
