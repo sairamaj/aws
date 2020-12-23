@@ -56,3 +56,4 @@ The Cost Optimization pillar includes the ability to run systems to deliver busi
 * Stop spending money on undifferentiated heavy lifting
 * Analyze and attribute expenditure
 
+
