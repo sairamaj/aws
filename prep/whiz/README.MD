@@ -16,3 +16,12 @@
 
 [lambda metrics](https://docs.aws.amazon.com/lambda/latest/dg/monitoring-metrics.html)
 [retry errors](https://docs.aws.amazon.com/lambda/latest/dg/invocation-retries.html?shortFooter=true)
+
+### Route53 traffic
+* CloudFront
+* EC2
+* Elastic BeanStalk
+* Load balancing
+* RDS
+* S3
+* WorkMail
