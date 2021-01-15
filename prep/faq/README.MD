@@ -1,0 +1,12 @@
+[cloudfront vs global accelerator](https://tutorialsdojo.com/aws-global-accelerator-vs-amazon-cloudfront/)
+
+AWS Global Accelerator and Amazon CloudFront are separate services that use the AWS global network and its edge locations around the world. CloudFront improves performance for both cacheable content (such as images and videos) and dynamic content (such as API acceleration and dynamic site delivery). Global Accelerator improves performance for a wide range of applications over TCP or UDP by proxying packets at the edge to applications running in one or more AWS Regions. Global Accelerator is a good fit for non-HTTP use cases, such as gaming (UDP), IoT (MQTT), or Voice over IP, as well as for HTTP use cases that specifically require static IP addresses or deterministic, fast regional failover. Both services integrate with AWS Shield for DDoS protection.
+
+* Storage gateway is hybrid cloud storage service to share and access data between on premesis and cloud.
+* S3 Transfer Accelration is used to transfer data to S3 using CloudFront globally distributed edge locations.
+* DataSync is a service used to transfer data between on-premise storage to AWS S3, EFS and FSx (also between AWS Storage services)
+* AWS Data Migration service is used to migrate databases to AWS databases like Aurora,
+
+A data warehouse is a database optimized to analyze relational data coming from transactional systems and line of business applications. The data structure, and schema are defined in advance to optimize for fast SQL queries, where the results are typically used for operational reporting and analysis. Data is cleaned, enriched, and transformed so it can act as the “single source of truth” that users can trust.
+
+A data lake is different, because it stores relational data from line of business applications, and non-relational data from mobile apps, IoT devices, and social media. The structure of the data or schema is not defined when data is captured. This means you can store all of your data without careful design or the need to know what questions you might need answers for in the future. Different types of analytics on your data like SQL queries, big data analytics, full text search, real-time analytics, and machine learning can be used to uncover insights.

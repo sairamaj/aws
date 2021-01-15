@@ -32,3 +32,7 @@
 * you can enable Multi-Attach on an EBS Provisioned IOPS __io1__ volume to allow a volume to be concurrently attached to up to __sixteen__ Nitro-based EC2 instances within the __same Availability Zone__
 
 * The Classic Load Balancer is ideal for simple load balancing of traffic across multiple EC2 instances, while the Application Load Balancer is ideal for applications needing advanced routing capabilities, microservices, and container-based architectures. Please visit Elastic Load Balancing for more information
+
+### Resources
+[EBS Optimized Instances](https://dzone.com/articles/when-amazon-ebs-optimized)
+
