@@ -48,3 +48,5 @@ Traffic between instances in peered VPCs remains private and isolated – simila
 * BGP is postal service of internet
 * ASN's are like individual post office branches
 * Each autonomous system wishing to exchange routing information must have a registered autonomous system number (ASN)
+
+NAT is not supported for IPv6 traffic—use an egress-only internet gateway instead.
